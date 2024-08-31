@@ -10,8 +10,6 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@vue-email/components": "^0.0.19",
-    "@vue-email/render": "^0.0.9",
     "nuxt": "^3.13.0",
     "resend": "^4.0.0",
     "vue": "latest"

@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
-  css: ['/public/css/main.css'],
+  css: ["/public/css/main.css"],
   postcss: {
     plugins: {
       tailwindcss: {},
