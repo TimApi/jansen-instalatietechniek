@@ -8,8 +8,8 @@ export default defineEventHandler(async (event) => {
   try {
     const data = await resend.emails.send({
       from: "Acme <onboarding@resend.dev>",
-      to: "jansentim9@gmail.com",
-      subject: "Hello world",
+      to: "info@sopjansen.nl",
+      subject: "neem contact op",
       html: `<strong>Hoi ik wil dat je contact met mij opneemt mijn email is ${email}</strong>`,
     });
 

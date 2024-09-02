@@ -11,8 +11,21 @@ export default {
   theme: {
     container: {
       center: true,
+      padding: "20px",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        helvetica: ["helvetica", "sans-serif"],
+      },
+      colors: {
+        primary: {
+          DEFAULT: "rgb(70,97,95)",
+        },
+        secondary: {
+          DEFAULT: "rgb(187,176,2)",
+        },
+      },
+    },
   },
   plugins: [],
 };

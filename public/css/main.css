@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("components/fonts.css");
+
+html {
+  box-sizing: border-box !important;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* needed cause summary takes content-box  */
+details,
+summary {
+  box-sizing: border-box;
+}
+
+body {
+  @apply flex flex-col min-h-screen m-0 overflow-hidden max-md:overflow-y-auto;
+}
+
+h1 {
+  @apply text-6xl font-helvetica font-semibold;
+}
+
+h2 {
+  @apply text-3xl font-helvetica font-semibold;
+}
